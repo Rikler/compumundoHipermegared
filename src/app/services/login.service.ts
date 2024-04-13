@@ -7,7 +7,7 @@ import { pluck } from 'rxjs';
 })
 export class LoginService {
   userLogin: boolean = false;
-  rolUser: string = '0';
+  rolUser: string = '1';
 
   constructor(
     private http: HttpClient,
