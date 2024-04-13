@@ -22,7 +22,7 @@ export class LibrosService {
   }
 
   obtenerLibros() {
-    return this.http.get('../../assets/generos.json').pipe(pluck('data'));
+    return this.http.get('assets/generos.json').pipe(pluck('data'));
   }
 
   getGenerosFiccionModerna() {

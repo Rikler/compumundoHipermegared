@@ -30,6 +30,6 @@ export class LoginService {
   }
 
   obtenerUsuarios() {
-    return this.http.get('../../assets/usuarios.json').pipe(pluck('data'));
+    return this.http.get('assets/usuarios.json').pipe(pluck('data'));
   }
 }
