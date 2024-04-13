@@ -1,0 +1,62 @@
+<div class="containerHeader">
+  <div class="logo">
+    <img src="../../../assets/Logo.jpg" alt="">
+  </div>
+  <div class="navegacion">
+    <button type="button" class="btn" [ngClass]="screenSelected === 'Home' ? 'btn-dark' : ''" (click)="showScreen('Home')">Home</button>
+    <button type="button" class="btn" [ngClass]="screenSelected === 'Añadir' ? 'btn-dark' : ''" *ngIf="rolUser === '0'" (click)="showScreen('Añadir')">Añadir</button>
+    <button type="button" class="btn" [ngClass]="screenSelected === 'Genero' ? 'btn-dark' : ''" (click)="open(content)">Genero</button>
+    <button type="button" class="btn" [ngClass]="screenSelected === 'Contactenos' ? 'btn-dark' : ''" (click)="showScreen('Contactenos')">Contáctenos</button>
+  </div>
+</div>
+
+<div class="containerHome" *ngIf="screenSelected === 'Home' || screenSelected === 'Genero'">
+  <h1>{{tituloGenero}}</h1>
+  <p>{{descripcionGenero}}</p>
+
+  <div class="row">
+    <div class="col-md-3 space" *ngFor="let libro of librosGenero">
+      <div class="card">
+        <img src="{{libro.imagen}}" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">{{libro.nombre}} - {{libro.autor}} ({{libro.year}})</h5>
+          <p class="card-text">{{libro.descripcion}}</p>
+          <p class="card-text">El precio del libro es de ${{libro.precio}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="screenSelected === 'Añadir'">
+  <app-admin-page></app-admin-page>
+</div>
+
+<div *ngIf="screenSelected === 'Contactenos'">
+  <app-contactenos></app-contactenos>
+</div>
+
+<div [ngClass]="screenSelected === 'Contactenos' ? 'footerBottom' : 'footer'">
+  <div class="texto">
+    <p>Todos los derechos reservados - 2024</p>
+  </div>
+</div>
+
+
+<ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">Seleccione el genero por favor</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+	</div>
+	<div class="modal-body">
+
+    <button type="button" class="btn btn-dark" (click)="obtenerFiccionModerna()">Ficción Moderna</button>
+    <button type="button" class="btn btn-dark btn-space" (click)="obtenerFantasia()">Fantasía</button>
+    <button type="button" class="btn btn-dark btn-space" (click)="obtenerCienciaFiccion()">Ciencia Ficción</button>
+
+
+	</div>
+	<!-- <div class="modal-footer">
+		<button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+	</div> -->
+</ng-template>

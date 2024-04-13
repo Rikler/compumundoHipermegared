@@ -1,0 +1,18 @@
+<div class="mainContainer">
+  <div class="alert alert-danger" role="alert" *ngIf="alertShow">
+    Usuario y contraseña incorrectos
+  </div>
+  <img src="../../../assets/Logo.jpg" alt="">
+  <div class="formContainer">
+
+    <div class="mb-3">
+      <input [(ngModel)]="correo" type="email" class="form-control" id="correo" placeholder="correo@dominio.com">
+    </div>
+    <div class="mb-3">
+      <input [(ngModel)]="password" type="password" class="form-control" id="password" placeholder="password">
+    </div>
+    <div class="mb-3">
+      <button (click)="login()" type="button" class="btn btn-dark button">Entrar</button>
+    </div>
+  </div>
+</div>

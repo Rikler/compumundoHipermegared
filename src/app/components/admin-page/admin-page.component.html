@@ -1,0 +1,71 @@
+<div class="mainAdminContainer">
+  <h1>Añadir</h1>
+  <h6>Agruegue los detalles...</h6>
+  <table class="table table-striped tableLibros">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Titulo</th>
+        <th scope="col">Autor</th>
+        <th scope="col">Portada</th>
+        <th scope="col">Genero</th>
+        <th scope="col">Año</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Descripcion</th>
+        <th scope="col">Agregar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">0</th>
+        <td>
+          <input [(ngModel)]="nombreLibro" type="text" class="form-control" placeholder="Titulo...">
+        </td>
+        <td>
+          <input [(ngModel)]="autorLibro" type="text" class="form-control" placeholder="Autor...">
+        </td>
+        <td>
+          <input [(ngModel)]="imagenLibro" type="text" class="form-control" placeholder="URL...">
+        </td>
+        <td>
+          <select [(ngModel)]="generoLibro" class="form-select" aria-label="Genero...">
+            <option selected disabled>Genero...</option>
+            <option value="0">Ficción Moderna</option>
+            <option value="1">Fantasía</option>
+            <option value="2">Ciencia Ficción</option>
+          </select>
+        </td>
+        <td>
+          <input [(ngModel)]="yearLibro" type="text" class="form-control" placeholder="Año...">
+        </td>
+        <td>
+          <input [(ngModel)]="precioLibro" type="text" class="form-control" placeholder="Precio...">
+        </td>
+        <td>
+          <input [(ngModel)]="descripcionLibro" type="text" class="form-control" placeholder="Descripcion...">
+        </td>
+        <td>
+          <button type="button" class="btn btn-success" (click)="agregarLibro()">Agregar</button>
+        </td>
+      </tr>
+      @for (libro of libros; track libro.nombre; let i = $index) {
+        <tr>
+          <th scope="row">{{ i + 1 }}</th>
+          <td>{{ libro.nombre }}</td>
+          <td>{{ libro.autor }}</td>
+          <td><img
+						[src]="libro.imagen"
+						[alt]=""
+						class="me-2"
+						style="width: 40px"
+					/></td>
+          <td>{{ libro.genero }}</td>
+          <td>{{ libro.year }}</td>
+          <td>${{ libro.precio }}</td>
+          <td>{{ libro.descripcion }}</td>
+          <td></td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

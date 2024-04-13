@@ -1,0 +1,16 @@
+.mainContainer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.formContainer {
+  margin-top: 3rem;
+}
+
+.button {
+  width: 100%;
+}

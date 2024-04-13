@@ -1,0 +1,22 @@
+<div class="mainContainer">
+  <div class="alert alert-success" role="alert" *ngIf="alertShow">
+    Correo enviado exitosamente!
+  </div>
+  <h1>Contactenos</h1>
+  <h6>Agregue sus datos</h6>
+  <div class="formContainer">
+
+    <div class="mb-3">
+      <input [(ngModel)]="nombre" type="text" class="form-control" id="nombre" placeholder="Nombre">
+    </div>
+    <div class="mb-3">
+      <input [(ngModel)]="correo" type="email" class="form-control" id="correo" placeholder="Email">
+    </div>
+    <div class="mb-3">
+      <input [(ngModel)]="numero" type="text" class="form-control" id="numero" placeholder="Telefono">
+    </div>
+    <div class="mb-3">
+      <button (click)="enviar()" type="button" class="btn btn-danger button">Enviar</button>
+    </div>
+  </div>
+</div>
