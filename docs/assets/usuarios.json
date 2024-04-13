@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "correo": "admin@poligran.edu.co",
+      "password": "admin",
+      "rol": "0"
+    },
+    {
+      "correo": "",
+      "password": "",
+      "rol": "0"
+    },
+    {
+      "correo": "user@poligran.edu.co",
+      "password": "user",
+      "rol": "1"
+    }
+  ]
+}

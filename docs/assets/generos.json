@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "genero": "Ficción Moderna",
+      "descripcion": "La ficción moderna es un género literario que se caracteriza por presentar historias ambientadas en escenarios modernos. Estas obras exploran la vida de sus protagonistas en un contexto contemporáneo, utilizando tecnología y acontecimientos cercanos a la cultura actual. A menudo, la ficción moderna refleja la sociedad y sus desafíos actuales.",
+      "libros": [
+        {
+          "nombre": "El Adulto",
+          "autor": "Gillian Flynn",
+          "year": "2015",
+          "imagen": "https://imagessl6.casadellibro.com/a/l/s5/36/9788417125936.webp",
+          "precio": "80.000",
+          "descripcion": "Ambientado en un pequeño pueblo, sigue a un “lector de auras” que realiza una limpieza espiritual en la casa de un cliente. Una historia intrigante que mezcla elementos de hogares embrujados"
+        },
+        {
+          "nombre": "La Cucaracha",
+          "autor": "Ian McEwan",
+          "year": "2019",
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJtLDP8ycOqhRE38NzqxUEcDkcgdDX0_IbrcpeKLmsTw&s",
+          "precio": "83.000",
+          "descripcion": "Un homenaje a “La Metamorfosis” de Franz Kafka, pero situado en el contexto del Brexit y la política económica. Una obra polémica y reflexiva"
+        },
+        {
+          "nombre": "1984",
+          "autor": "George Orwell",
+          "year": "1949",
+          "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/85/64/8564963be6e21ee55d0bd7b532c3a9bb.jpg",
+          "precio": "30.000",
+          "descripcion": "Un clásico distópico que presenta un mundo totalitario donde la vigilancia y la manipulación son omnipresentes. Una crítica social y política que sigue siendo relevante hoy en día"
+        },
+        {
+          "nombre": "En las montañas de la locura",
+          "autor": "H.P. Lovecraft",
+          "year": "1936",
+          "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/78/0e/780e063cdadbdd48f6f98a9ca205f3d0.jpg",
+          "precio": "45.000",
+          "descripcion": "Aunque Lovecraft es conocido por su terror, esta obra también tiene elementos de ciencia ficción. Explora una expedición a la Antártida y descubre seres antiguos y alienígenas"
+        },
+        {
+          "nombre": "Fahrenheit 451",
+          "autor": "Ray Bradbury",
+          "year": "1953",
+          "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/39/0c/390cf389c0c83ef393d8a0b763e856c0.jpg",
+          "precio": "40.000",
+          "descripcion": "Una distopía en la que los libros están prohibidos y se queman para controlar el pensamiento crítico. Una reflexión sobre la censura y la libertad intelectual"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "genero": "Fantasía",
+      "descripcion": "La fantasía es un género literario que se caracteriza por presentar elementos mágicos, seres mitológicos y mundos imaginarios. A diferencia de la ciencia ficción, la fantasía no se basa en explicaciones científicas o lógicas. Sus ecosistemas y marcos temporales son imposibles en nuestro universo conocido. La fantasía a menudo se centra en aventuras, autoconocimiento y enfrentamiento de conflictos. Es un género que nos permite escapar a mundos llenos de maravillas y magia.",
+      "libros": [
+        {
+          "nombre": "La cólera de Tiamat",
+          "autor": "James S. A. Corey",
+          "year": "2019",
+          "imagen": "https://imagessl5.casadellibro.com/a/l/s5/95/9788418037795.webp",
+          "precio": "130.000",
+          "descripcion": "La octava entrega de la serie galardonada con el Premio Hugo. Explora sistemas planetarios y aventuras en un imperio interestelar"
+        },
+        {
+          "nombre": "Alas de sangre",
+          "autor": "Rebecca Yarros",
+          "year": "2023",
+          "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/2b/fb/2bfb7265c7fcde0d8a33c51711e74cd0.jpg",
+          "precio": "100.000",
+          "descripcion": "Una historia que desafía las leyes del espacio y el tiempo"
+        },
+        {
+          "nombre": "Proyecto Karón",
+          "autor": "Ana B. Nieto",
+          "year": "2023",
+          "imagen": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1690811053i/156530708.jpg",
+          "precio": "70.000",
+          "descripcion": "Alaxi Dalem está acostumbrado a una vida demasiado tranquila, como agricultor y padre de familia, en un pueblo perdido del desierto de Mojave."
+        },
+        {
+          "nombre": "La guía del mago frugal para sobrevivir en la Inglaterra del Medievo",
+          "autor": "Brandon Sanderson",
+          "year": "2023",
+          "imagen": "https://m.media-amazon.com/images/I/81BPkcUSfOL._SY466_.jpg",
+          "precio": "125.000",
+          "descripcion": "Un hombre despierta en el claro de un bosque de lo que parece ser la Inglaterra medieval, sin ningún recuerdo sobre quién es, de dónde procede ni por qué está allí."
+        },
+        {
+          "nombre": "El trono velado",
+          "autor": "Ken Liu",
+          "year": "2023",
+          "imagen": "https://m.media-amazon.com/images/I/71V7fQCxc9L._SY466_.jpg",
+          "precio": "140.000",
+          "descripcion": "La princesa Théra deja el trono en manos de su hermano pequeño para luchar contra los lyucu en Ukyu-Gondé. Ha cruzado el legendario Muro de las Tormentas con una flota de guerra y diez mil combatientes."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "genero": "Ciencia Ficción",
+      "descripcion": "La ciencia ficción es un subgénero de la ficción que se basa en la ciencia y la tecnología. En la ciencia ficción, los personajes y las situaciones se desarrollan en universos ficticios que siguen las leyes de la ciencia. A menudo explora temas como la exploración espacial, los viajes en el tiempo, la inteligencia artificial y más. Los autores de ciencia ficción deben tener un conocimiento básico de la ciencia para crear un mundo coherente y creíble.",
+      "libros": [
+        {
+          "nombre": "La máquina del tiempo",
+          "autor": "Herbert George Wells",
+          "year": "1895",
+          "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/f2/ec/f2ecc3ec997607a873959f042d4fa062.jpg",
+          "precio": "20.000",
+          "descripcion": "Un clásico que explora los viajes en el tiempo y una sociedad futura dividida"
+        },
+        {
+          "nombre": "Soy leyenda",
+          "autor": "Richard Matheson",
+          "year": "1954",
+          "imagen": "https://www.planetadelibros.com.co/usuaris/libros/fotos/303/m_libros/302924_portada_soy-leyenda_richard-matheson_202001151211.jpg",
+          "precio": "90.000",
+          "descripcion": "Robert Neville es el único superviviente de una guerra bacteriológica que ha asolado el planeta y convertido al resto de la humanidad en vampiros. Su vida se ha reducido a asesinar el máximo número posible de estos seres sanguinarios durante el día, y a soportar su asedio cada noche."
+        },
+        {
+          "nombre": "El fin de la eternidad",
+          "autor": "Isaac Asimov",
+          "year": "1955",
+          "imagen": "https://images-na.ssl-images-amazon.com/images/I/41bG2Z61FCL._SX210_.jpg",
+          "precio": "100.000",
+          "descripcion": "El fin de la Eternidad es una novela de ciencia ficción escrita por Isaac Asimov en 1955. La novela trata sobre el tema de una sociedad capaz de viajar a través del tiempo y cuenta con abundantes elementos de misterio y suspense."
+        },
+        {
+          "nombre": "Las estrellas, mi destino",
+          "autor": "Alfred Bester",
+          "year": "1956",
+          "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_3C6gxNhV4gpsj2u_R0HnQGiA-bCDIgHRrGYSWGXZWKEanO6rHsLKrQS14-bzLzXLC-cY5NuSokv-UPLHzHCjjhzsbBdiEyBDIb-OzuUQyBwuMic765qoRgaqWFDvTA6rfSRh_N8xBwI2/s1600/estrellasdestino.jpg",
+          "precio": "35.000",
+          "descripcion": " Ambientada en el siglo XXIV o XXV, que varía entre las ediciones del libro, cuando los humanos han colonizado el Sistema solar, cuenta la historia de Gully [Gulliver] Foyle, un teletransportador impulsado por un ferviente deseo de venganza."
+        },
+        {
+          "nombre": "Solaris",
+          "autor": "Stanislaw Lem",
+          "year": "1961",
+          "imagen": "https://jeroenthoughts.files.wordpress.com/2021/08/solaris-stanislaw-lem-1961-1972-08.gif",
+          "precio": "50.000",
+          "descripcion": "Kris Kelvin acaba de llegar a Solaris. Su misión es esclarecer los problemas de conducta de los tres tripulantes de la única estación de observación situada en el planeta."
+        }
+      ]
+    }
+  ]
+}
